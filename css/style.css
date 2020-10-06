@@ -47,13 +47,11 @@ nav a:hover{
   z-index: 1;
 
   position: absolute;
-  bottom: 40px;
-  visibility: hidden;
+  top: -40px;
 }
 
 .skip a:focus{
-  position: absolute;
-  bottom: 0px;
+  top: 0px;
 }
 
 *:focus{
